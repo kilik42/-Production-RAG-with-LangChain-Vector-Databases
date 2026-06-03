@@ -8,3 +8,35 @@ wheels/
 
 # Virtual environments
 .venv
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# uv build artifacts
+.uv/
+dist/
+build/
+
+# Credentials / secrets folders
+smtp_credentials/
