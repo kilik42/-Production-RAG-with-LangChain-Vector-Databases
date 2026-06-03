@@ -1,0 +1,9 @@
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+
+uv init
+
+uv venv
+
+source .venv/Scripts/activate
+ uv run main.py
